@@ -1,0 +1,80 @@
+# Created by https://www.toptal.com/developers/gitignore/api/keil,assembler
+# Edit at https://www.toptal.com/developers/gitignore?templates=keil,assembler
+
+### Assembler ###
+*.exe
+*.o
+*.obj
+*.bc
+
+### Keil ###
+# Something maybe need to add
+# *.bat  # generate batch file
+# output/project_name # uv project generate without file ext
+# *.SRC # generate source file
+# *.src
+
+# Prerequisites
+*.d
+*.dep
+
+# Object files
+*.OBJ
+
+# Listing Files
+*.COD
+*.cod
+*.[Ii]
+*.LST
+*.lst
+*.MAP
+*.map
+*.[Mm]51
+*.[Mm]66
+*.SCR
+*.scr
+
+# LINK output
+*.ABS
+
+# Libraries
+*.lib
+*.LIB
+
+# uv output
+*.lnp
+*.build_log.htm
+*.HEX
+*.hex
+
+# Build Files
+*._IA
+*.__[Ii]
+*._[Ii][Ii]
+
+# Project files
+*.uvgui.*
+*.uvguix.*
+*.uvproj
+*.uvopt
+
+# Keil build artifacts
+*.bak
+*.dep
+*.o
+*.lst
+*.map
+*.lnp
+*.hex
+*.htm
+*.uvopt
+*.uvgui.*
+*.axf
+
+# Ignore Keil output directories
+Objects/
+Listings/
+
+# Ignore Keil Event Recorder files
+*.scvd
+
