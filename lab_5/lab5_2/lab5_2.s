@@ -6,7 +6,7 @@
     ENTRY
 
 START
-    MOV R1, #0              ; R1 = the number to calculate factorial of (4!)
+    MOV R1, #4              ; R1 = the number to calculate factorial of (4!)
     MOV R0, #1              ; R0 = result of factorial, initially 1
     BL CALCULATE_FACTORIAL  ; Branch to subroutine to compute factorial
     B STOP                  ; Infinite loop after calculation ends
